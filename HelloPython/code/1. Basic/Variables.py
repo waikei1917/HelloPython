@@ -10,3 +10,5 @@ thirdNumber = firstNumber+secondNumber;
 print(thirdNumber);
 print('thirdNumber id: ', id(thirdNumber));
 print('thirdNumber type: ', type(thirdNumber));
+
+print("")
