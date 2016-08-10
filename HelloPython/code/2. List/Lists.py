@@ -28,5 +28,16 @@ print('#list删除第6和第7个元素:del list[5:7]', '#输出：',list);
 list.remove(15)#查找list值为15的并移除
 print('#list删除第6和第7个元素:del list[5:7]', '#输出：',list)
 
+list.reverse()#把list倒过来
+print('＃把list倒过来：list.reverse()','＃输出： ',list)
+
+list3 = [2,3,4,1,5]#定义list3
+list4 = sorted(list3)#定义list4等于排序好的list3
+print('#定义list3','＃输出： ',list3)
+print('#定义list4等于排序好的list3', '＃输出： ', list4)
+
+list3.sort()#重新排序list3
+print('#重新排序list3','＃输出： ', list3)
+
 
 
